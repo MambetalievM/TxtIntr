@@ -3,7 +3,7 @@ RELEASE_FLAGS = -O2 -Wall -DNDEBUG
 DEBUG_FLAGS   = -g -O0 -Wall
 RELEASE_EXEC  = calc
 DEBUG_EXEC    = calc-dbg
-SOURCE        = calc.cpp
+SOURCE        = main.cpp
 
 all: debug release
 
